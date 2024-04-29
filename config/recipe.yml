@@ -64,8 +64,7 @@ modules:
       - glances
       - glibc-locale-source
       - gnome-tweaks
-      # - gocryptfs
-      - golang-github-rfjakob-gocryptfs
+      - gocryptfs
       - grim
       - gparted
       - hotspot
