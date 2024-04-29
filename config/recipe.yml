@@ -30,7 +30,9 @@ modules:
       - https://copr.fedorainfracloud.org/coprs/varlad/zellij/repo/fedora-%OS_VERSION%/varlad-zellij-fedora-%OS_VERSION%.repo
       - https://copr.fedorainfracloud.org/coprs/wezfurlong/wezterm-nightly/repo/fedora-%OS_VERSION%/wezfurlong-wezterm-nightly-fedora-%OS_VERSION%.repo
       - https://copr.fedorainfracloud.org/coprs/alebastr/swayr/repo/fedora-%OS_VERSION%/alebastr-swayr-fedora-%OS_VERSION%.repo
-      - https://terra.fyralabs.com/terra.repo
+      # - https://terra.fyralabs.com/terra.repo
+      - https://github.com/terrapkg/subatomic-repos/raw/main/terra.repo
+
       ## - https://copr.fedorainfracloud.org/coprs/flekz/helix-git/repo/fedora-%OS_VERSION%/flekz-helix-git-fedora-%OS_VERSION%.repo
       - https://gist.github.com/ecocode/f910ca1621ba29220074bc281e6b8a78/raw/daa76873e8a38e16b0575b9c8099324667cb7dcf/insync.repo
       # - https://fbreader.org/linux/rpms/fbreader.repo
