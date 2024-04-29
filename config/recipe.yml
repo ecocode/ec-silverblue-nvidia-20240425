@@ -86,6 +86,7 @@ modules:
       - mako
       - mediainfo
       - mpv
+      - neofetch
       - neovim
       - network-manager-applet
       - NetworkManager-tui
