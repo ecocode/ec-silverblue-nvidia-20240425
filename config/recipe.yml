@@ -38,12 +38,11 @@ modules:
     install:
       - atool
       - alot
-      - appimagelauncher
+      # - appimagelauncher
       - bat
       - bemenu
-      - bettercap
+      # - bettercap
       - blueman
-      # - brave-browser
       - cargo
       - cryfs
       - distrobox
@@ -92,7 +91,7 @@ modules:
       # - nvidia-vaapi-driver
       - nvtop
       - odt2txt
-      - openh264
+      # - openh264
       - openssl-devel
       - pasystray
       - perf
