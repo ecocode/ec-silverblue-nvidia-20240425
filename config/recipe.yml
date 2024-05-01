@@ -38,6 +38,8 @@ modules:
       - https://gist.github.com/ecocode/f910ca1621ba29220074bc281e6b8a78/raw/daa76873e8a38e16b0575b9c8099324667cb7dcf/insync.repo
       # - https://fbreader.org/linux/rpms/fbreader.repo
 
+      - https://copr.fedorainfracloud.org/coprs/ryanabx/cosmic-epoch/repo/fedora-%OS_VERSION%/ryanabx-cosmic-epoch-fedora-%OS_VERSION%.repo
+
     install:
       - atool
       - alot
@@ -48,6 +50,7 @@ modules:
       - blueman
       - cargo
       - cryfs
+      - cosmic-epoch
       - distrobox
       - dconf-editor
       - egl-wayland
