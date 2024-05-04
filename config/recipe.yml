@@ -58,6 +58,7 @@ modules:
       # epiphany is the package name of gnome web
       # - epiphany
       - eza
+      - fastfetch
       - fbreader
       - fd-find
       - firewall-config
@@ -89,7 +90,6 @@ modules:
       - mako
       - mediainfo
       - mpv
-      - neofetch
       - neovim
       - network-manager-applet
       - NetworkManager-tui
