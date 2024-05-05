@@ -31,6 +31,7 @@ modules:
       - https://copr.fedorainfracloud.org/coprs/varlad/zellij/repo/fedora-%OS_VERSION%/varlad-zellij-fedora-%OS_VERSION%.repo
       - https://copr.fedorainfracloud.org/coprs/wezfurlong/wezterm-nightly/repo/fedora-%OS_VERSION%/wezfurlong-wezterm-nightly-fedora-%OS_VERSION%.repo
       - https://copr.fedorainfracloud.org/coprs/alebastr/swayr/repo/fedora-%OS_VERSION%/alebastr-swayr-fedora-%OS_VERSION%.repo
+      - https://copr.fedorainfracloud.org/coprs/yalter/niri/repo/fedora-%OS_VERSION%/yalter-niri-fedora-%OS_VERSION%.repo
       # - https://terra.fyralabs.com/terra.repo
       - https://github.com/terrapkg/subatomic-repos/raw/main/terra.repo
 
@@ -89,10 +90,12 @@ modules:
       - macchanger
       - mako
       - mediainfo
+      - miracle-wm
       - mpv
       - neovim
       - network-manager-applet
       - NetworkManager-tui
+      - niri
       - nnn
       - nushell
       # - nvidia-vaapi-driver
