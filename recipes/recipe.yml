@@ -32,14 +32,14 @@ modules:
       - https://copr.fedorainfracloud.org/coprs/wezfurlong/wezterm-nightly/repo/fedora-%OS_VERSION%/wezfurlong-wezterm-nightly-fedora-%OS_VERSION%.repo
       - https://copr.fedorainfracloud.org/coprs/alebastr/swayr/repo/fedora-%OS_VERSION%/alebastr-swayr-fedora-%OS_VERSION%.repo
       - https://copr.fedorainfracloud.org/coprs/yalter/niri/repo/fedora-%OS_VERSION%/yalter-niri-fedora-%OS_VERSION%.repo
-      # - https://terra.fyralabs.com/terra.repo
-      - https://github.com/terrapkg/subatomic-repos/raw/main/terra.repo
+      - https://gist.github.com/ecocode/f910ca1621ba29220074bc281e6b8a78/raw/daa76873e8a38e16b0575b9c8099324667cb7dcf/insync.repo
+      - https://gist.github.com/ecocode/21beb822a05373ac063cb3bf1a550d6c/raw/a7ed5b79ef8d675bdd7e7866cf64fdfb67e27d74/terra.repo
+      - https://copr.fedorainfracloud.org/coprs/ryanabx/cosmic-epoch/repo/fedora-%OS_VERSION%/ryanabx-cosmic-epoch-fedora-%OS_VERSION%.repo
 
       ## - https://copr.fedorainfracloud.org/coprs/flekz/helix-git/repo/fedora-%OS_VERSION%/flekz-helix-git-fedora-%OS_VERSION%.repo
-      - https://gist.github.com/ecocode/f910ca1621ba29220074bc281e6b8a78/raw/daa76873e8a38e16b0575b9c8099324667cb7dcf/insync.repo
       # - https://fbreader.org/linux/rpms/fbreader.repo
-
-      - https://copr.fedorainfracloud.org/coprs/ryanabx/cosmic-epoch/repo/fedora-%OS_VERSION%/ryanabx-cosmic-epoch-fedora-%OS_VERSION%.repo
+      # - https://terra.fyralabs.com/terra.repo
+      # - https://github.com/terrapkg/subatomic-repos/raw/main/terra.repo
 
     install:
       - atool
@@ -162,8 +162,7 @@ modules:
         - com.brave.Browser
         - com.discordapp.Discord
         - one.ablaze.floorp//lightning # This is an example of flatpak which has multiple branches in selection (flatpak//branch).
-
-        # - org.mozilla.firefox
+        - org.mozilla.firefox
         # - org.gnome.Loupe
         # Flatpak runtimes are not supported (like org.winehq.Wine//stable-23.08),
 
