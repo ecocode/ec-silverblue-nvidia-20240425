@@ -189,7 +189,6 @@ modules:
         - Terminus
         - JetBrainsMono
         - NerdFontsSymbolsOnly
-        - MaterialDesignIcons
       google-fonts:
         - Roboto
         - Open Sans
