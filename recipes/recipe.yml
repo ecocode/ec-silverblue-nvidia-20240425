@@ -183,13 +183,17 @@ modules:
       nerd-fonts:
         - FiraCode # don't add spaces or "Nerd Font" suffix.
         - Hack
+        - Iosevka
+        - Noto
         - SourceCodePro
         - Terminus
         - JetBrainsMono
         - NerdFontsSymbolsOnly
+        - MaterialDesignIcons
       google-fonts:
         - Roboto
         - Open Sans
+        - Noto Sans
 
   - type: script
     snippets:
