@@ -32,7 +32,9 @@ modules:
       - https://copr.fedorainfracloud.org/coprs/wezfurlong/wezterm-nightly/repo/fedora-%OS_VERSION%/wezfurlong-wezterm-nightly-fedora-%OS_VERSION%.repo
       - https://copr.fedorainfracloud.org/coprs/alebastr/swayr/repo/fedora-%OS_VERSION%/alebastr-swayr-fedora-%OS_VERSION%.repo
       - https://copr.fedorainfracloud.org/coprs/yalter/niri/repo/fedora-%OS_VERSION%/yalter-niri-fedora-%OS_VERSION%.repo
-      - https://gist.github.com/ecocode/f910ca1621ba29220074bc281e6b8a78/raw/daa76873e8a38e16b0575b9c8099324667cb7dcf/insync.repo
+      # using a version without gpg-key control to test if it works
+      # - https://gist.github.com/ecocode/f910ca1621ba29220074bc281e6b8a78/raw/daa76873e8a38e16b0575b9c8099324667cb7dcf/insync.repo
+      - https://gist.githubusercontent.com/ecocode/f910ca1621ba29220074bc281e6b8a78/raw/c7ec93fb507accf15bc9dc567febfbda92a3a53a/insync.repo
       - https://gist.github.com/ecocode/21beb822a05373ac063cb3bf1a550d6c/raw/a7ed5b79ef8d675bdd7e7866cf64fdfb67e27d74/terra.repo
       - https://copr.fedorainfracloud.org/coprs/ryanabx/cosmic-epoch/repo/fedora-%OS_VERSION%/ryanabx-cosmic-epoch-fedora-%OS_VERSION%.repo
 
@@ -75,7 +77,7 @@ modules:
       - gparted
       - hotspot
       - imv
-      # - insync
+      - insync
       - intel-media-driver
       - inxi
       - j4-dmenu-desktop
@@ -192,5 +194,5 @@ modules:
   - type: script
     snippets:
     scripts:
-      - insync.sh
+      # - insync.sh
   - type: signing # this sets up the proper policy & signing files for signed images to work fully
