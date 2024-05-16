@@ -75,7 +75,7 @@ modules:
       - gparted
       - hotspot
       - imv
-      - insync
+      # - insync
       - intel-media-driver
       - inxi
       - j4-dmenu-desktop
@@ -176,4 +176,21 @@ modules:
       install:
       - com.onepassword.OnePassword
 
+  - type: fonts
+    fonts:
+      nerd-fonts:
+        - FiraCode # don't add spaces or "Nerd Font" suffix.
+        - Hack
+        - SourceCodePro
+        - Terminus
+        - JetBrainsMono
+        - NerdFontsSymbolsOnly
+      google-fonts:
+        - Roboto
+        - Open Sans
+
+  - type: script
+    snippets:
+    scripts:
+      - insync.sh
   - type: signing # this sets up the proper policy & signing files for signed images to work fully
