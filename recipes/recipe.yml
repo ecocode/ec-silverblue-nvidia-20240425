@@ -111,6 +111,7 @@ modules:
       - plasma-wayland-protocols
       - pulseaudio-utils
       - qutebrowser
+      - qt5-qtwebengine-freeworld
       - qt6-qtwayland
       - qtile
       - ripgrep
