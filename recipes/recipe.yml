@@ -110,6 +110,7 @@ modules:
       - perl-File-MimeInfo
       - plasma-wayland-protocols
       - pulseaudio-utils
+      - qutebrowser
       - qt6-qtwayland
       - qtile
       - ripgrep
