@@ -146,7 +146,7 @@ modules:
       - wl-clipboard
       - wofi
       - xdg-desktop-portal-wlr
-      - xorg-x11-drv-nvidia-cuda
+      # - xorg-x11-drv-nvidia-cuda
       - zellij
 
     remove:
