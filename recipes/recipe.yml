@@ -132,6 +132,7 @@ modules:
       - tmux
       - trash-cli
       - usbip
+      - udiskie
       - variety
       - virt-install
       - virt-manager
