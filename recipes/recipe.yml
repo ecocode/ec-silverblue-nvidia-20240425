@@ -100,7 +100,7 @@ modules:
       - network-manager-applet
       - NetworkManager-tui
       - niri
-      - nnn
+      # - nnn
       - nushell
       # - nvidia-vaapi-driver
       - nvtop
@@ -115,7 +115,7 @@ modules:
       - qutebrowser
       # - qt5-qtwebengine-freeworld
       - qt6-qtwayland
-      - qtile
+      # - qtile
       - ripgrep
       - river
       - rofi-wayland
