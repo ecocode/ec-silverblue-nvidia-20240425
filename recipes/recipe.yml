@@ -4,9 +4,9 @@ name: ec-silverblue-nvidia-20240425
 description: This is my personal Silverblue Nvidia image from 20240425
 
 # the base image to build on top of (FROM) and the version tag to use
-base-image: ghcr.io/ublue-os/silverblue-nvidia
+# base-image: ghcr.io/ublue-os/silverblue-nvidia
 # base-image: ghcr.io/ublue-os/sericea-nvidia
-# base-image: ghcr.io/wayblueorg/sway
+base-image: ghcr.io/wayblueorg/sway-nvidia
 image-version: latest # latest is also supported if you want new updates ASAP
 
 # module configuration, executed in order
@@ -25,7 +25,7 @@ modules:
       - https://copr.fedorainfracloud.org/coprs/atim/lazygit/repo/fedora-%OS_VERSION%/atim-lazygit-fedora-%OS_VERSION%.repo
       - https://copr.fedorainfracloud.org/coprs/atim/nushell/repo/fedora-%OS_VERSION%/atim-nushell-fedora-%OS_VERSION%.repo
       - https://copr.fedorainfracloud.org/coprs/atim/starship/repo/fedora-%OS_VERSION%/atim-starship-fedora-%OS_VERSION%.repo
-      - https://copr.fedorainfracloud.org/coprs/g/sway-sig/sway-desktop/repo/fedora-%OS_VERSION%/group_sway-sig-sway-desktop-fedora-%OS_VERSION%.repo
+      # - https://copr.fedorainfracloud.org/coprs/g/sway-sig/sway-desktop/repo/fedora-%OS_VERSION%/group_sway-sig-sway-desktop-fedora-%OS_VERSION%.repo
       # - https://copr.fedorainfracloud.org/coprs/nucleo/gocryptfs/repo/fedora-%OS_VERSION%/nucleo-gocryptfs-fedora-%OS_VERSION%.repo
       - https://copr.fedorainfracloud.org/coprs/pesader/gocryptfs/repo/fedora-%OS_VERSION%/pesader-gocryptfs-fedora-%OS_VERSION%.repo
       - https://copr.fedorainfracloud.org/coprs/peterwu/iosevka/repo/fedora-%OS_VERSION%/peterwu-iosevka-fedora-%OS_VERSION%.repo
@@ -124,7 +124,7 @@ modules:
       - sshfs
       - starship
       - strace
-      - sway
+      # - sway
       - swaybg
       - swayr
       - swayidle
