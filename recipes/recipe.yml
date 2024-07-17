@@ -129,6 +129,8 @@ modules:
       - swayr
       - swayidle
       - swaylock
+      - sway-systemd
+      - systemd
       - taskopen
       - tilix
       - tmux
