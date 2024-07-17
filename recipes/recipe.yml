@@ -120,6 +120,8 @@ modules:
       - river
       - rofi-wayland
       - samba
+      - sddm-wayland-sway
+      - sddm-wayland-generic
       - slurp
       - sshfs
       - starship
