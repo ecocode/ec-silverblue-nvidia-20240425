@@ -122,7 +122,7 @@ modules:
       - samba
       - sddm
       - sddm-wayland-sway
-      - sddm-wayland-generic
+      # - sddm-wayland-generic
       - slurp
       - sshfs
       - starship
