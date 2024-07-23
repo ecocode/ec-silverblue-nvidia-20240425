@@ -174,7 +174,7 @@ modules:
         - org.kde.krita
         - com.brave.Browser
         - com.discordapp.Discord
-        - one.ablaze.floorp//lightning # This is an example of flatpak which has multiple branches in selection (flatpak//branch).
+        - one.ablaze.floorp  # //lightning - This is an example of flatpak which has multiple branches in selection (flatpak//branch).
         - org.mozilla.firefox
         # - org.gnome.Loupe
         # Flatpak runtimes are not supported (like org.winehq.Wine//stable-23.08),
