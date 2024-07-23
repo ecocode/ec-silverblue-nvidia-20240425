@@ -183,11 +183,11 @@ modules:
       # Installing different branches of the same Flatpak is not supported.
       remove:
         # - org.gnome.eog
-    user:
-      repo-url: https://downloads.1password.com/linux/flatpak/1Password.flatpakref
-      repo-name: 1Password
-      install:
-      - com.onepassword.OnePassword
+    ## user:
+    ##   repo-url: https://downloads.1password.com/linux/flatpak/1Password.flatpakref
+    ##   repo-name: 1Password
+    ##   install:
+    ##   - com.onepassword.OnePassword
 
   - type: fonts
     fonts:
