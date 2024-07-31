@@ -156,6 +156,9 @@ modules:
       - xdg-desktop-portal-wlr
       # - xorg-x11-drv-nvidia-cuda
       - zellij
+      - gtk3
+      - webkit2gtk3
+      - libusb
 
     remove:
       # example: removing firefox (in favor of the flatpak)
