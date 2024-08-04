@@ -157,6 +157,7 @@ modules:
       - xdg-desktop-portal-wlr
       # - xorg-x11-drv-nvidia-cuda
       - zellij
+      - zoxide
       - gtk3
       - webkit2gtk3
       - libusb
