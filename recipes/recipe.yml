@@ -122,8 +122,8 @@ modules:
       - river
       - rofi-wayland
       - samba
-      - sddm
-      - sddm-wayland-sway
+      # - sddm
+      # - sddm-wayland-sway
       # - sddm-wayland-generic
       - slurp
       - sshfs
