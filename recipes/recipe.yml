@@ -63,6 +63,7 @@ modules:
       - entr
       # epiphany is the package name of gnome web
       # - epiphany
+      - eww
       - eza
       - fastfetch
       - fbreader
@@ -80,7 +81,7 @@ modules:
       - gparted
       - hotspot
       - imv
-      - insync
+      # - insync
       - intel-media-driver
       - inxi
       - j4-dmenu-desktop
