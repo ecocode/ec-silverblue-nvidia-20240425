@@ -38,8 +38,7 @@ modules:
       - https://copr.fedorainfracloud.org/coprs/yalter/niri/repo/fedora-%OS_VERSION%/yalter-niri-fedora-%OS_VERSION%.repo
       - https://copr.fedorainfracloud.org/coprs/frostyx/qtile/repo/fedora-%OS_VERSION%/frostyx-qtile-fedora-%OS_VERSION%.repo
       # using a version without gpg-key control to test if it works
-      - https://gist.githubusercontent.com/ecocode/f910ca1621ba29220074bc281e6b8a78/raw/78f9178d29b8b051dcff5b95d305062a83c2c9eb/insync.repo
-      # - https://gist.githubusercontent.com/ecocode/f910ca1621ba29220074bc281e6b8a78/raw/c7ec93fb507accf15bc9dc567febfbda92a3a53a/insync.repo
+      # - https://gist.githubusercontent.com/ecocode/f910ca1621ba29220074bc281e6b8a78/raw/78f9178d29b8b051dcff5b95d305062a83c2c9eb/insync.repo
       - https://gist.github.com/ecocode/21beb822a05373ac063cb3bf1a550d6c/raw/a7ed5b79ef8d675bdd7e7866cf64fdfb67e27d74/terra.repo
       - https://copr.fedorainfracloud.org/coprs/ryanabx/cosmic-epoch/repo/fedora-%OS_VERSION%/ryanabx-cosmic-epoch-fedora-%OS_VERSION%.repo
       ## - https://copr.fedorainfracloud.org/coprs/flekz/helix-git/repo/fedora-%OS_VERSION%/flekz-helix-git-fedora-%OS_VERSION%.repo
