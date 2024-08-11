@@ -87,6 +87,7 @@ modules:
       - j4-dmenu-desktop
       - jrnl
       - kalendar
+      - ksystemlog
       - kanshi
       - kitty
       - kitty-terminfo
