@@ -86,6 +86,7 @@ modules:
       - inxi
       - j4-dmenu-desktop
       - jrnl
+      - kalendar
       - kanshi
       - kitty
       - kitty-terminfo
