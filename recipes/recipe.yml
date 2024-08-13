@@ -88,6 +88,9 @@ modules:
       - jrnl
       - kalendar
       - kio-gdrive
+      - kio-extras-kf5
+      - kio-fuse
+      - kio-ftps
       - kjournald
       - ksystemlog
       - kanshi
