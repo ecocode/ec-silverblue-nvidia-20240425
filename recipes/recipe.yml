@@ -6,7 +6,8 @@ description: This is my personal Silverblue Nvidia image from 20240425
 # the base image to build on top of (FROM) and the version tag to use
 # base-image: ghcr.io/ublue-os/silverblue-nvidia
 # base-image: ghcr.io/ublue-os/sericea-nvidia
-base-image: ghcr.io/ublue-os/kinoite-nvidia
+# base-image: ghcr.io/ublue-os/kinoite-nvidia
+base-image: ghcr.io/ublue-os/aurora-nvidia
 # base-image: ghcr.io/wayblueorg/sway-nvidia
 image-version: latest # latest is also supported if you want new updates ASAP
 
@@ -185,7 +186,7 @@ modules:
       # repo-title: "Flathub (system-wide)" # Optional; this sets the remote's user-facing name in graphical frontends like GNOME Software
       install:
         - org.kde.krita
-        # - com.brave.Browser
+        - com.brave.Browser
         - com.discordapp.Discord
         - one.ablaze.floorp  # //lightning - This is an example of flatpak which has multiple branches in selection (flatpak//branch).
         # - org.mozilla.firefox
