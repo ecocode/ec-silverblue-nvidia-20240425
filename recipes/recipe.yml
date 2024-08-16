@@ -50,7 +50,6 @@ modules:
     install:
       - atool
       - alot
-      - atuin
       # - appimagelauncher
       - bat
       - bemenu
