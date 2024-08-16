@@ -94,6 +94,7 @@ modules:
       - kio-ftps
       - kjournald
       - ksystemlog
+      - kwallet-pam
       - kanshi
       - kitty
       - kitty-terminfo
