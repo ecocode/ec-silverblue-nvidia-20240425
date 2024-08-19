@@ -74,6 +74,7 @@ modules:
       - foot
       - foot-terminfo
       - fzf
+      - gh
       - glances
       - glibc-locale-source
       - gnome-tweaks
