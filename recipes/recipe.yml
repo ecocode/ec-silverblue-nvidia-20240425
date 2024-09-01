@@ -58,6 +58,7 @@ modules:
       - cargo
       - cryfs
       - cosmic-desktop
+      - digikam
       - distrobox
       - dconf-editor
       - egl-wayland
@@ -81,6 +82,7 @@ modules:
       - gocryptfs
       - grim
       - gparted
+      - gtk3
       - gvfs-gphoto2
       - hotspot
       - imv
@@ -90,6 +92,7 @@ modules:
       - j4-dmenu-desktop
       - jrnl
       - kalendar
+      - kamera
       - kio-gdrive
       - kio-extras-kf5
       - kio-fuse
@@ -100,6 +103,7 @@ modules:
       - kanshi
       - kitty
       - kitty-terminfo
+      - libusb
       - light
       - lm_sensors
       - lshw
@@ -161,6 +165,7 @@ modules:
       - w3m
       - waybar
       # - wayfire
+      - webkit2gtk3
       - webkit2gtk4.0
       - wdisplays
       - wezterm
@@ -170,9 +175,6 @@ modules:
       # - xorg-x11-drv-nvidia-cuda
       - zellij
       - zoxide
-      - gtk3
-      - webkit2gtk3
-      - libusb
 
     remove:
       # example: removing firefox (in favor of the flatpak)
