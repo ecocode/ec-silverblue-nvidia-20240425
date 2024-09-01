@@ -94,6 +94,8 @@ modules:
       - jrnl
       - kalendar
       - kamera
+      - kf5-solid
+      - kf6-solid
       - kio-gdrive
       - kio-extras-kf5
       - kio-fuse
