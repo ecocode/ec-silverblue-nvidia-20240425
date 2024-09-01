@@ -81,6 +81,7 @@ modules:
       - gocryptfs
       - grim
       - gparted
+      - gvfs-gphoto2
       - hotspot
       - imv
       # - insync
