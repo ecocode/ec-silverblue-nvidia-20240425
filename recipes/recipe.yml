@@ -84,6 +84,7 @@ modules:
       - gparted
       - gtk3
       - gvfs-gphoto2
+      - gvfs-afc
       - hotspot
       - imv
       # - insync
