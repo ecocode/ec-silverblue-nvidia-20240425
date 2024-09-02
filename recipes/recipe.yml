@@ -61,6 +61,7 @@ modules:
       - digikam
       - distrobox
       - dconf-editor
+      - dolphin
       - egl-wayland
       - entr
       # epiphany is the package name of gnome web
