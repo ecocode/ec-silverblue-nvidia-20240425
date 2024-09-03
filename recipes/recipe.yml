@@ -102,6 +102,7 @@ modules:
       - kio-fuse
       - kio-ftps
       - kjournald
+      - kontact
       - ksystemlog
       - kwallet-pam
       - kanshi
