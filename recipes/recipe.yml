@@ -120,6 +120,7 @@ modules:
       - mediainfo
       - miracle-wm
       - mpv
+      - neochat
       - neovim
       - network-manager-applet
       - NetworkManager-tui
