@@ -89,7 +89,7 @@ modules:
       - hotspot
       - imv
       # - insync
-      - intel-media-driver
+      # - intel-media-driver
       - inxi
       - j4-dmenu-desktop
       - jrnl
