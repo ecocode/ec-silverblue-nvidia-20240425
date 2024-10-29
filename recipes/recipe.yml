@@ -49,6 +49,7 @@ modules:
 
     install:
       - atool
+      - akregator
       - alot
       # - appimagelauncher
       - bat
