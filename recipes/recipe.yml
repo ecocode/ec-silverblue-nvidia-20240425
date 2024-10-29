@@ -161,6 +161,7 @@ modules:
       - systemd
       - taskopen
       - tilix
+      - tlp
       - tmux
       - trash-cli
       - usbip
