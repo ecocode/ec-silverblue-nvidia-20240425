@@ -178,7 +178,7 @@ modules:
       - webkit2gtk3
       - webkit2gtk4.0
       - wdisplays
-      - wezterm
+      # - wezterm
       - wl-clipboard
       - wofi
       - xdg-desktop-portal-wlr
