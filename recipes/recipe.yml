@@ -115,6 +115,7 @@ modules:
       - light
       - lm_sensors
       - lshw
+      - luarocks
       - lynx
       - macchanger
       - mako
