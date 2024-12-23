@@ -197,8 +197,8 @@ modules:
     notify: true # Send notification after install/uninstall is finished (true/false)
     system:
       # If no repo information is specified, Flathub will be used by default
-      repo-url: https://dl.flathub.org/repo/flathub.flatpakrepo
-      repo-name: flathub
+      # repo-url: https://dl.flathub.org/repo/flathub.flatpakrepo
+      # repo-name: flathub
       # repo-title: "Flathub (system-wide)" # Optional; this sets the remote's user-facing name in graphical frontends like GNOME Software
       install:
         # - org.kde.krita
@@ -212,7 +212,7 @@ modules:
       # only normal flatpak applications are (like Floorp Lightning web browser in this example).
       # Installing different branches of the same Flatpak is not supported.
       remove:
-        # - org.gnome.eog
+        - org.gnome.eog
     ## user:
     ##   repo-url: https://downloads.1password.com/linux/flatpak/1Password.flatpakref
     ##   repo-name: 1Password
