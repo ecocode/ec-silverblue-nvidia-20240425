@@ -236,8 +236,4 @@ modules:
         - Open Sans
         - Noto Sans
 
-  - type: script
-    snippets:
-    scripts:
-      # - insync.sh
   - type: signing # this sets up the proper policy & signing files for signed images to work fully
