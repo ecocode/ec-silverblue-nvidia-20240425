@@ -1,3 +1,5 @@
+---
+# yaml-language-server: $schema=https://schema.blue-build.org/recipe-v1.json
 # image will be published to ghcr.io/<user>/<name>
 name: ec-silverblue-nvidia-20240425
 # description will be included in the image's metadata
@@ -18,9 +20,6 @@ modules:
     files:
       - source: system
         destination: / # copies files/system/* (* means everything inside it) into your image's root folder /
-                       # put configuration files you want in /usr/etc/ inside the image
-                       # while putting files in /etc/ is done on booted system by system administrators.
-                       # read more about this in files module reference.
 
   - type: rpm-ostree
     repos:
@@ -219,6 +218,7 @@ modules:
     ##   repo-name: 1Password
     ##   install:
     ##   - com.onepassword.OnePassword
+    user: {} # Also add Flathub user repo, but no user packages
 
   - type: fonts
     fonts:
